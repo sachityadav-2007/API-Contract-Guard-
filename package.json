@@ -1,17 +1,24 @@
 {
   "name": "api-contract-guard",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lightweight Express middleware for validating request bodies against reusable schemas.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "express",
+    "middleware",
+    "validation",
+    "api",
+    "request-validation",
+    "nodejs"
+  ],
+  "author": "Sachit Kumar",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
-    "jest": "^30.5.2"
+    "jest": "~30.5.2"
   },
   "dependencies": {
     "express": "^5.2.1"
